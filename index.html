@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="text" id="login" >
+<script>
+    function clickhere() {
+        let y = document.getElementById('login').value;
+        if (y == "Employee") {
+            alert('xin chao ban')
+        } else if (y == "Director") {
+            alert('xin chao giam doc')
+        } else if (y == '') {
+            alert('moi nhap thong tin')
+        } else alert("")
+    }
+</script>
+<button onclick="clickhere();">Login here</button>
+
+</body>
+</html>
